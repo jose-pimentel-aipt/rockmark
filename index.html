@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockMark</title>  <!-- Change the title -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        primary: {"50":"#f9fafb","100":"#f3f4f6","200":"#e5e7eb","300":"#d1d5db","400":"#9ca3af","500":"#6b7280","600":"#4b5563","700":"#374151","800":"#1f2937","900":"#111827","950":"#030712"}
+      }
+    },
+    fontFamily: {
+      'body': [
+    'Inter', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ],
+      'sans': [
+    'Inter', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ]
+    }
+  }
+}
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"  rel="stylesheet" />
+</head>
+<body>
+
+<!-- Add your blocks here -->
+
+<header>
+  <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+      <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+          <a href="#" class="flex items-center">
+              <img src="assets/Rockmark_Black.png" class="mr-3 h-6 sm:h-9" />
+          </a>
+      </div>
+  </nav>
+</header>
+
+<!-- About Us -->
+
+<section class="bg-white dark:bg-gray-900">
+  <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">RockMark</h2>
+          <p class="mb-4">At Rockmark, we stand at the crossroads where experience meets innovation in the dynamic real estate market of Portugal. As a seasoned player in the real estate sector, we specialize in delivering a comprehensive suite of services that encompasses every facet of real estate fund and asset management. Our holistic approach is designed to streamline operations, making Rockmark a trusted partner in building long-term real estate portfolios in Portugal.</p>
+      </div>
+      <div class="grid grid-cols-2 gap-4 mt-8">
+          <img class="w-full rounded-lg" src="assets/veronika-jorjobert-mR_AxcbVivg-unsplash.jpg" alt="office content 1">
+          <img class="mt-4 w-full lg:mt-10 rounded-lg" src="assets/max-zed-z09bo9DxJkw-unsplash.jpg" alt="office content 2">
+      </div>
+  </div>
+</section>
+
+<!-- About Us Closing-->
+
+
+<!-- Services Open-->
+<div class="bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+      <div>
+        <h2 class="text-base font-semibold leading-7">Services</h2>
+        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Fund Management</p>
+        <p class="mt-6 text-base leading-7 text-gray-600">Dive into a world of seamless and proficient real estate services, all under one roof at Rockmark. Our extensive offerings include:</p>
+      </div>
+      <dl class="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
+        <div class="relative pl-9">
+          <dt class="font-semibold text-gray-900">
+            <svg class="absolute left-0 top-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+            Real Estate Fund Manager
+          </dt>
+          <dd class="mt-2">Harness our expertise to foster growth and stability in your real estate portfolio.</dd>
+        </div>
+        <div class="relative pl-9">
+          <dt class="font-semibold text-gray-900">
+            <svg class="absolute left-0 top-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+            Compliance & Reporting
+          </dt>
+          <dd class="mt-2">Stay ahead of the curve with our thorough compliance services and detailed reporting mechanisms, fostering transparency and trust.</dd>
+        </div>
+        <div class="relative pl-9">
+          <dt class="font-semibold text-gray-900">
+            <svg class="absolute left-0 top-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+            Accounting & Legal
+          </dt>
+          <dd class="mt-2">Navigate the complex waters of real estate accounting and legal issues with our expert guidance, ensuring safety and profitability.</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</div>
+<!-- Services Closed-->
+
+<!-- Services Open-->
+<div class="bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+      <div>
+        <h2 class="text-base font-semibold leading-7">Services</h2>
+        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Real Estate</p>
+      </div>
+      <dl class="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
+        <div class="relative pl-9">
+          <dt class="font-semibold text-gray-900">
+            <svg class="absolute left-0 top-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+            Brokerage
+          </dt>
+          <dd class="mt-2">Benefit from our deep market insights and network, offering unparalleled brokerage services.</dd>
+        </div>
+        <div class="relative pl-9">
+          <dt class="font-semibold text-gray-900">
+            <svg class="absolute left-0 top-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+            Valuations
+          </dt>
+          <dd class="mt-2">Get accurate and reliable property valuations, empowering you to make informed decisions.</dd>
+        </div>
+        <div class="relative pl-9">
+          <dt class="font-semibold text-gray-900">
+            <svg class="absolute left-0 top-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+            Property Management
+          </dt>
+          <dd class="mt-2">Entrust your properties to our capable hands, promising meticulous management and upkeep.</dd>
+        </div>
+        <div class="relative pl-9">
+          <dt class="font-semibold text-gray-900">
+            <svg class="absolute left-0 top-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+            Interior Design
+          </dt>
+          <dd class="mt-2">Transform spaces into splendid environments with our bespoke interior design solutions.</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</div>
+<!-- Services Closed-->
+
+<!-- Testimonial -->
+<section class="bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
+        <figure class="mt-10 flex flex-auto flex-col justify-between">
+          <blockquote class="text-lg leading-8 text-gray-900">
+            <p>"I had the pleasure of working with Rockmark on a number of investments in the Portuguese real estate sector. Their expertise is truly unmatched. With Rockmark, not only did I have peace of mind, but my investments saw substantial growth, thanks to their well-structured strategies and deep market understanding. Their team's professionalism and commitment to customer satisfaction make them a standout choice in the industry."</p>
+          </blockquote>
+          <figcaption class="mt-10 flex items-center gap-x-6">
+            <img class="h-14 w-14 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            <div class="text-base">
+              <div class="font-semibold text-gray-900">Frank T.</div>
+              <div class="mt-1 text-gray-500">from America</div>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20">
+        <figure class="mt-10 flex flex-auto flex-col justify-between">
+          <blockquote class="text-lg leading-8 text-gray-900">
+            <p>"Rockmark has been a cornerstone in helping us expand our real estate portfolio in Portugal. Their all-encompassing services, including brokerage and property management, have proven to be of exceptional quality. The team at Rockmark handles every aspect with utmost dedication and finesse, right from valuation to interior design, offering a hassle-free and fruitful investment journey. They truly are the partners you want by your side in the real estate market."</p>
+          </blockquote>
+          <figcaption class="mt-10 flex items-center gap-x-6">
+            <img class="h-14 w-14 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            <div class="text-base">
+              <div class="font-semibold text-gray-900">Joan C.</div>
+              <div class="mt-1 text-gray-500">from the U.K.</div>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Testimonial -->
+
+<!---Contact-->
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
+      <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+      <form action="#" class="space-y-8">
+          <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+          </div>
+          <div>
+              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+              <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+          </div>
+          <div class="sm:col-span-2">
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+          </div>
+          <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+      </form>
+  </div>
+</section>
+<!--contact-->
+
+
+<footer class="bg-white">
+  <div class="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
+    <div class="flex justify-center space-x-6 md:order-2">
+      <a href="mailto:info@rockmark.pt">info@rockmark.pt</a>
+    </div>
+    <div class="mt-8 md:order-1 md:mt-0">
+      <p class="flex justify-center space-x-6 md:order-2">&copy; Copyright © 2023 by Rockmark</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Closing blocks -->
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</body>
+</html>
